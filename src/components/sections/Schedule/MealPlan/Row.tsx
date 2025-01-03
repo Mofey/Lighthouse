@@ -1,6 +1,6 @@
 import React from 'react'
 import { Utensils } from 'lucide-react';
-import { SectionTypes } from '@types';
+import { type SectionTypes } from '@types';
 
 const Row = ({ day, breakfast, lunch, dinner}: SectionTypes) => {
   return (

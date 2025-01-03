@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SectionTypes } from '@types';
+import { type SectionTypes } from '@types';
 import { Quote } from 'lucide-react';
 
 interface TestimonialCardProps extends SectionTypes {

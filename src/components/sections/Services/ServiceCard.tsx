@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { SectionTypes } from '@types'
+import { type SectionTypes } from '@types'
 
 const ServiceCard = ({name, icon, description}: SectionTypes) => {
   return (

@@ -84,7 +84,7 @@ const Contact = () => {
               <div>
                 <h3 className="font-semibold text-gray-900 dark:text-gray-100">Phone</h3>
                 <a href="tel:+2349048434776">
-                  <p className="hover:text-blue-600 text-gray-600 dark:text-gray-300">
+                  <p className="hover:text-blue-600 text-gray-600 dark:text-gray-300 dark:hover:text-yellow-500">
                     +234 904 843 4776
                   </p>
                 </a>
@@ -99,7 +99,7 @@ const Contact = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <p className="hover:text-blue-600 text-gray-600 dark:text-gray-300">5B Tokunbo Omisore Street,<br />Lekki Phase 1, Lekki, Lagos, Nigeria.</p>
+                  <p className="hover:text-blue-600 text-gray-600 dark:text-gray-300 dark:hover:text-yellow-500">5B Tokunbo Omisore Street,<br />Lekki Phase 1, Lekki, Lagos, Nigeria.</p>
                 </a>
               </div>
             </div>
