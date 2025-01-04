@@ -59,8 +59,8 @@ const NotifyAndScroll = ({
     <>
       {showNotification && (
         <div
-          className="fixed bottom-16 right-8 left-8 sm:left-auto bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 px-6 py-4 rounded-lg shadow-lg flex items-center gap-4 transition-transform duration-500 z-50"
-          style={{ animation: "slide-up 0.5s ease forwards" }}
+          className="fixed bottom-16 right-8 left-8 sm:left-auto bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 px-6 py-4 rounded-lg shadow-lg flex items-center gap-4 transition-transform duration-500 z-50 animate-slide-up"
+          // style={{ animation: "slide-up 0.5s ease forwards" }}
           role="alert"
           aria-live="polite"
         >
