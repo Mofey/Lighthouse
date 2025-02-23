@@ -106,9 +106,9 @@ const Footer = () => {
         <div className="mt-8 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400">© 2025 Lighthouse Lekki. All rights reserved.</p>
-            <p className="text-gray-400 mt-4 md:mt-0">
+            {/* <p className="text-gray-400 mt-4 md:mt-0">
               Emergency Contact: <a href="tel:+234XXXXXXXX" className="hover:text-blue-300 text-yellow-500">+234 XXX XXX XXXX</a>
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

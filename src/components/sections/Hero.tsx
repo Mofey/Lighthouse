@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { FaPhoneAlt } from 'react-icons/fa';
 import Loader from '../Loader';
+import beach from '@assets/landing-page-pix/beach.png';
 import Logo from '@assets/logo/logoLight.svg';
 
 const Hero = () => {
-  const background = {
+  /*const background = {
       image: "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&q=80"
-  }
-
+  }*/
+  //'https://res.cloudinary.com/mofey/image/upload/v1735220782/clouds.png'
   const [animate, setAnimate] = useState(false);
   const [loading, setLoading] = useState(true);
 
@@ -24,14 +25,14 @@ const Hero = () => {
   return (
     <>
       {loading && <Loader />}
-      <div id="home" className="relative min-h-screen flex items-center">
+      <div id="home" className="relative min-h-screen flex items-center overflow-hidden">
         <div
           className={`absolute inset-0 transition-transform duration-1000 ${
             animate ? "translate-y-0" : "translate-y-full"
           }`}
         >
           <img
-            src= {background.image}
+            src= 'https://res.cloudinary.com/mofey/image/upload/v1740338774/beach_ujo6vj.jpg'
             alt="Happy Family"
             className="w-full h-full object-cover"
             onLoad={handleImageLoad}
@@ -49,12 +50,13 @@ const Hero = () => {
               in a supportive and healing environment.
             </p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-              <a href="tel:+234XXXXXXXX" className="text-lg font-semibold text-white">
-                <button className="flex items-center gap-2 p-4 bg-blue-600 rounded shadow-md hover:bg-blue-700 dark:hover:bg-yellow-500">
+              <a href="tel:+2349048434776" className="block text-lg font-semibold text-white">
+                <div className="flex items-center gap-2 p-4 bg-blue-600 rounded shadow-md hover:bg-blue-700 dark:hover:bg-yellow-500">
                   <FaPhoneAlt className="text-white w-6 h-6" />
                   Call Us Now
-                </button>
+                </div>
               </a>
+
               <a
                 href="/services"
                 className="relative text-lg font-semibold text-white transition-all duration-300 group hover:text-blue-200"
@@ -65,6 +67,13 @@ const Hero = () => {
 
             </div>
           </div>
+        </div>
+
+        {/* Cloud Animation */}
+        <div className="absolute z-10 bottom-0 left-0 w-full h-[13.75em] animate-cloudLoop">
+          <img src='https://res.cloudinary.com/mofey/image/upload/v1735220782/clouds.png'
+          alt="Moving Cloud"
+          className="w-full h-full object-contain opacity-50" />
         </div>
       </div>
     </>

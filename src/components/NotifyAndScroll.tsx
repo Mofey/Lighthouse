@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ArrowUp, Lightbulb, X } from 'lucide-react';
 
 const NotifyAndScroll = ({
-  notificationDuration = 5000,
+  notificationDuration = 6900,
   scrollThreshold = window.innerHeight,
 }) => {
   const [isVisible, setIsVisible] = useState(false);
