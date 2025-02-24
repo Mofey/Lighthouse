@@ -42,10 +42,10 @@ const Hero = () => {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:w-3/5">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 pointer-events-none">
               Your Journey to Recovery Starts Here
             </h1>
-            <p className="text-xl text-gray-200 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl mx-auto pointer-events-none">
               At Lighthouse Lekki, we provide comprehensive rehabilitation services
               in a supportive and healing environment.
             </p>
@@ -70,7 +70,7 @@ const Hero = () => {
         </div>
 
         {/* Cloud Animation */}
-        <div className="absolute z-10 bottom-0 left-0 w-full h-[13.75em] animate-cloudLoop">
+        <div className="absolute z-10 bottom-0 left-0 w-full h-[13.75em] animate-cloudLoop pointer-events-none">
           <img src='https://res.cloudinary.com/mofey/image/upload/v1735220782/clouds.png'
           alt="Moving Cloud"
           className="w-full h-full object-contain opacity-50" />
