@@ -1,6 +1,5 @@
-import React from 'react';
 import StaffCard from './StaffCard';
-import { staffMembers } from './staffData';
+import { staffMembers } from '@data';
 
 const Staff = () => {
   return (

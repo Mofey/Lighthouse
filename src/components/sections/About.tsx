@@ -1,4 +1,3 @@
-import React from 'react';
 import { Target, Heart, Shield } from 'lucide-react';
 import { FaDownload } from 'react-icons/fa';
 import lighthouseHandbook from '@assets/lighthouse-handbook.pdf';

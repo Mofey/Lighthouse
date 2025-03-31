@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { characteristics } from './clientData';
+import { characteristics } from '@data';
 import ClientCard from './ClientCard';
 
 const Clients = () => {

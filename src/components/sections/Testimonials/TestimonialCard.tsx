@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { type SectionTypes } from '@types';
 import { Quote } from 'lucide-react';
 

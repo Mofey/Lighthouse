@@ -1,4 +1,3 @@
-import React from 'react';
 import MealPlan from './MealPlan';
 import Timetable from './Timetable';
 import { FaDownload } from 'react-icons/fa';

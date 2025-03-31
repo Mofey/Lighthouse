@@ -1,6 +1,5 @@
-import React from 'react';
 import Row from './Row';
-import { meals } from './mealPlanData';
+import { meals } from '@data';
 
 const MealPlan = () => {
 

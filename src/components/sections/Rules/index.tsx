@@ -1,7 +1,6 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { rules } from './rulesData';
+import { rules } from '@data';
 import RulesCard from './RuleCard';
 
 const Rules = () => {

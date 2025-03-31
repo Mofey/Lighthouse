@@ -1,6 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { prohibits } from './prohibitsData'
+import { prohibits } from '@data'
 import ProhibitedCard from './ProhibitedCard';
 
 const ProhibitedItems = () => {

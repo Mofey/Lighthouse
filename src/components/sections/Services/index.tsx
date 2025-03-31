@@ -1,6 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { services } from './servicesData';
+import { services } from '@data';
 import ServiceCard from './ServiceCard';
 
 const Services = () => {

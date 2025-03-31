@@ -1,6 +1,5 @@
-import React from 'react';
 import Row from './Row';
-import { schedule } from './timeTableData';
+import { schedule } from '@data';
 
 const Timetable = () => {
 

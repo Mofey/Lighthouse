@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { FaPhoneAlt } from 'react-icons/fa';
 import Loader from '../Loader';
 

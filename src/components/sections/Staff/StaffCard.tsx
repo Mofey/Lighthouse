@@ -1,4 +1,3 @@
-import React from 'react';
 import { type SectionTypes } from '@types';
 
 const StaffCard = ({ name, role, image, qualifications = [], description }: SectionTypes) => {
